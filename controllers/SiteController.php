@@ -34,6 +34,10 @@ class SiteController extends Controller
         ];
     }
 
+    public function actionProducts(){
+        return $this->render('products');
+    }
+
     public function actions()
     {
         return [

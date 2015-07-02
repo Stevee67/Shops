@@ -38,7 +38,7 @@ AppAsset::register($this);
                     ['label' => 'Головна', 'url' => ['/site/index']],
                     ['label' => 'Про нас', 'url' => ['/site/about']],
                     ['label' => 'Зконтактувати з нами', 'url' => ['/site/contact']],
-                    ['label' => 'Товари', 'url' => ['/site/contact']],
+                    ['label' => 'Товари', 'url' => ['/site/products']],
                     Yii::$app->user->isGuest ?
                         ['label' => 'Ввійти', 'url' => ['/site/login']] :
                         ['label' => 'Вийти (' . Yii::$app->user->identity->username . ')',
